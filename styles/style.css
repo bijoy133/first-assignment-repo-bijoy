@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin:0;
+   
 }
 /* navbar style */
 
@@ -74,12 +75,14 @@
  /* main style */
  main{
     margin:100px 50px;
+    
+  
  }
 
  .vission{
     width: 850px;
     height: 500px;
-    background-color: white;
+   
    
  }
  .vission-title{
@@ -166,4 +169,77 @@
     border: none;
     margin-top: 15px;
  }
+ /* recent bar style */
+ .recent{
+    width: 850px;
+    width:800;
+    text-align:justify;
+   
 
+ }
+ .recent-box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+    padding:40px;
+    background-color:#e0e0e0;
+    border-radius: 24px;
+
+ }
+ .recent-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+ }
+ .recent-sub-title{
+    font-size:16px;
+    color: #0e0e0ead;
+    margin-bottom: 10px;
+ }
+ .recent-title-2{
+    font-size: 32;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom:10px;
+
+ }
+ .recent-img{
+    width: 300px;
+    height:200;
+    border-radius: 24px;
+
+
+ }
+.recent-time{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.a-img{
+    width:100px;
+    height: 30px;
+}
+.btn-recent{
+    font-size: 16px;
+    font-weight: 600;
+    padding:10px 20px;
+    color: #FFFFFF;
+    background-color:#006A50;
+    border-radius: 8px;
+    border: none;
+    
+}
+.recent-box-2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+    padding:40px;
+    background-color:#e0e0e0;
+    border-radius: 24px;
+    margin-top: 50px;
+
+}
