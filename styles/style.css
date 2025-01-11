@@ -8,13 +8,14 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+   
     
     
 }
 .nav-title{
     font-size: 32px;
     font-weight: bold;
-    margin: 32px 100px;
+    margin: 32px 50px;
     
 
 }
@@ -33,13 +34,13 @@
     background-color: #C6E4D6;
     align-items: center;
     text-align: justify;
-    width:80%;
-    height:50%;
-    margin:0 100px;
+    width:850px;
+    height:400px;
+    margin:0 50px;
     border-radius:24px;
 }
 .banner-right img{
-    width:350px;
+    width:300px;
     height:300px;
     align-items: center;
     margin-top: 80px;
@@ -61,7 +62,7 @@
  }
  .banner-title{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
  }
  .banner-sub-title{
     font-size: 24px;
@@ -70,3 +71,99 @@
     opacity: 50%;
     margin-bottom:20px;
  }
+ /* main style */
+ main{
+    margin:100px 50px;
+ }
+
+ .vission{
+    width: 850px;
+    height: 500px;
+    background-color: white;
+   
+ }
+ .vission-title{
+    font-weight: bold;
+    font-size: 40px;
+ }
+ .vission-description{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 30px;
+ }
+
+ .box{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+ }
+  .box1{
+    width: 280px;
+    height:250px;
+    background-color: #548ff55b ;
+    border-radius: 16px;
+    padding:20px;
+    
+    
+  }
+.box2{
+    width: 280px;
+    height:250px;
+    background-color: #C6E4D6 ;
+    border-radius: 16px;
+    padding:20px;
+}
+.box3{
+    width: 280px;
+    height:250px;
+    background-color: #F7EBCF ;
+    border-radius: 16px;
+    padding:20px;
+}
+ .box-img{
+    width: 64px;
+    height: 64px;
+    margin-bottom:20px;
+ }
+ .box-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ .box-descripton{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 10px;
+ }
+ .box1-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding:10px 20px;
+    color: #FFFFFF;
+    background-color:#5490F5;
+    border-radius: 8px;
+    border: none;
+ }
+ .box2-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding:10px 20px;
+    color: #FFFFFF;
+    background-color:#09A15C;
+    border-radius: 8px;
+    border: none;
+    margin-top:15px;
+ }
+ .box3-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding:10px 20px;
+    color: #FFFFFF;
+    background-color:#FFC239;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+ }
+
